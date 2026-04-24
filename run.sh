@@ -9,7 +9,7 @@ CURRENT_USER=$(whoami)
 NODE_VERSION="22"
 
 #UPDATES
-               
+
 echo "[0/6] Updating apt..."
 sudo apt-get update -y
 
@@ -29,7 +29,7 @@ npm -v
 
 mkdir -p /var/www/
 cd /var/www/
-git clone https://github.com/Br-Bo/backend-test.git
+git clone https://github.com/Bo-Br/backend-test.git
 cd /var/www/backend-test/
 
 #FIXPERMISSIONS
